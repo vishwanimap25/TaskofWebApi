@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\models\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\models\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\models\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\models\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|c:\\users\\nimap\\source\\tasks\\e-commercetask\\e-commercetask\\db context\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F0DD6-DD64-455D-AE29-7D992EFB8279}|E-commerceTask\\E-commerceTask.csproj|solutionrelative:e-commercetask\\db context\\contextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Models\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Category.cs*",
+              "RelativeToolTip": "E-commerceTask\\Models\\Entities\\Category.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:57:09.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Orders.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Models\\Entities\\Orders.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Orders.cs",
+              "RelativeToolTip": "E-commerceTask\\Models\\Entities\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:57:01.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Models\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "E-commerceTask\\Models\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:56:54.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Products.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Models\\Entities\\Products.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Products.cs",
+              "RelativeToolTip": "E-commerceTask\\Models\\Entities\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:56:46.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Models\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Models\\Entities\\Users.cs",
+              "RelativeToolTip": "E-commerceTask\\Models\\Entities\\Users.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:56:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextFile.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Db Context\\ContextFile.cs",
+              "RelativeDocumentMoniker": "E-commerceTask\\Db Context\\ContextFile.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\E-commerceTask\\E-commerceTask\\Db Context\\ContextFile.cs",
+              "RelativeToolTip": "E-commerceTask\\Db Context\\ContextFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:53:06.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

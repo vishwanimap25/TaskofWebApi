@@ -1,0 +1,7 @@
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.csproj.AssemblyReference.cache
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.AssemblyInfo.cs
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nimap\source\Tasks\E-commerceTask\E-commerceTask\obj\Debug\net8.0\E-commerceTask.MvcApplicationPartsAssemblyInfo.cache
