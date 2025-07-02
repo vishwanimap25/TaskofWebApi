@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\migrations\\20250702114241_newnewinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\migrations\\20250702114241_newnewinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|c:\\users\\nimap\\source\\tasks\\mvcpracticewithvinesh\\mvcpracticewithvinesh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C35999-496C-4791-A862-1814579D613A}|MVCpracticewithVinesh\\MVCpracticewithVinesh.csproj|solutionrelative:mvcpracticewithvinesh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 259,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250702114241_newnewinit.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Migrations\\20250702114241_newnewinit.cs",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\Migrations\\20250702114241_newnewinit.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Migrations\\20250702114241_newnewinit.cs",
+              "RelativeToolTip": "MVCpracticewithVinesh\\Migrations\\20250702114241_newnewinit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T11:42:42.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\appsettings.json",
+              "RelativeToolTip": "MVCpracticewithVinesh\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T11:22:29.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVCpracticewithVinesh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T10:36:29.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Views\\Home\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\Views\\Home\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Views\\Home\\AddUser.cshtml",
+              "RelativeToolTip": "MVCpracticewithVinesh\\Views\\Home\\AddUser.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T10:31:58.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Models\\User.cs",
+              "RelativeToolTip": "MVCpracticewithVinesh\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T10:21:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCpracticewithVinesh\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\MVCpracticewithVinesh\\MVCpracticewithVinesh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCpracticewithVinesh\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:56:39.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
