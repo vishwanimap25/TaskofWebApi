@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Business Inventory &amp; Billing System.props" />
+</Project>

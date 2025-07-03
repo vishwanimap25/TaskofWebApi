@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 259,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:21:12.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Program.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Program.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T06:20:23.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\appsettings.json",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\appsettings.json",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T06:19:06.658Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
