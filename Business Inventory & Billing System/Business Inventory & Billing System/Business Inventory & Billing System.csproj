@@ -18,6 +18,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.6" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Category\" />
+    <Folder Include="Services\Customer\" />
+    <Folder Include="Services\SalesReport\" />
+    <Folder Include="Services\Order\" />
+    <Folder Include="Services\OrderItem\" />
+    <Folder Include="Services\Product\" />
   </ItemGroup>
 
 </Project>

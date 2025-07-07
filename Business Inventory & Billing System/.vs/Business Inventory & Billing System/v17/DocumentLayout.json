@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\services\\user_service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\services\\user_service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\dto\u0027s\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\dto\u0027s\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\services\\user_service\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\services\\user_service\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\dto\u0027s\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\dto\u0027s\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\db context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|c:\\users\\nimap\\source\\tasks\\business inventory \u0026 billing system\\business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D229DEA-2786-43F8-81FA-7241196A008A}|Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System.csproj|solutionrelative:business inventory \u0026 billing system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,32 +82,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Services\\User_service\\UserServices.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Services\\User_service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Services\\User_service\\UserServices.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Services\\User_service\\UserServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:20:57.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Services\\User_service\\IUserServices.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Services\\User_service\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Services\\User_service\\IUserServices.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Services\\User_service\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:20:49.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Users.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\Users.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:09:05.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T10:56:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserRegistrationDto.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserRegistrationDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T10:54:33.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserLoginDto.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Dto\u0027s\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T10:54:22.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderItems.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\OrderItems.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\OrderItems.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\OrderItems.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\OrderItems.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:25:53.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDBcontext.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
               "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
               "RelativeToolTip": "Business Inventory \u0026 Billing System\\Db context\\AppDBcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:21:12.744Z"
+              "WhenOpened": "2025-07-03T06:21:12.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Orders.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\Orders.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Orders.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T10:06:35.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesReport.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\SalesReport.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\SalesReport.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\SalesReport.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\SalesReport.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:21:48.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Customers.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\Customers.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Customers.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\Customers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:19:32.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Program.cs",
               "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Program.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Program.cs",
               "RelativeToolTip": "Business Inventory \u0026 Billing System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T06:20:23.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Category.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:28:03.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Products.cs",
+              "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\Models\\Entities\\Products.cs",
+              "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\Models\\Entities\\Products.cs",
+              "RelativeToolTip": "Business Inventory \u0026 Billing System\\Models\\Entities\\Products.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:16:02.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nimap\\source\\Tasks\\Business Inventory \u0026 Billing System\\Business Inventory \u0026 Billing System\\appsettings.json",
               "RelativeDocumentMoniker": "Business Inventory \u0026 Billing System\\appsettings.json",
