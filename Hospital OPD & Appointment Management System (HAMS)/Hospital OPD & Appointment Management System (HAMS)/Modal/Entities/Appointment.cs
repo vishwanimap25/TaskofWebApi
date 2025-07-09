@@ -22,18 +22,3 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
     }
 }
 
-//Appointment->
-
-//Id
-//PatientId
-//DoctorId
-//DateTime AppointmentDate
-//TimeSlot
-//Reason
-//Status
-//CreatedAt
-
-////navigation
-//patient patient
-//doctor doctor
-

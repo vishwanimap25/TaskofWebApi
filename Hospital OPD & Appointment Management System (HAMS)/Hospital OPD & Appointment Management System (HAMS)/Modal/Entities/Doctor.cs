@@ -17,7 +17,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         public int PhoneNumber { get; set; }
         public string Qualification { get; set; }
         [Required]
-        [StringLength(10)]
+        [MaxLength(10)]
         public string Gender { get; set; }
         public string AvailbilityDays { get; set; }
         public TimeSpan AvailableFrom { get; set; }

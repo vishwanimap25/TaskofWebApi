@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Configuration\" />
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Mapping\" />
