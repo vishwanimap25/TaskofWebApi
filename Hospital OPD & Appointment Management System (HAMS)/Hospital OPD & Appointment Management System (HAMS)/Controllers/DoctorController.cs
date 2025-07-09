@@ -1,0 +1,64 @@
+﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Services;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class DoctorController : Controller
+    {
+        private readonly IDoctorServices _service;
+
+        public DoctorController(IDoctorServices service)
+        {
+            _service = service;
+        }
+
+
+        //(1) Get All Doctors
+        [HttpGet("GetAllDoctors")]
+        public async Task<ActionResult<IEnumerable<DoctorReadDto>>> GetAllDoctors()
+        {
+            var doctors = await _service.GetAllDoctors();
+            return Ok(doctors);
+        }
+
+        //(2) Get Doctors by Id
+        [HttpGet("GetDoctorById{id}")]
+        public async Task<ActionResult<DoctorReadDto>> GetDoctorById(int id)
+        {
+            var doctor = await _service.GetDoctorById(id);
+            if(doctor == null)
+            {
+                return NotFound();
+            }
+            return Ok(doctor);
+        }
+
+        //(3) Create new Doctor
+        [HttpPost("CreateDoctor")]
+        public async Task<ActionResult<DoctorReadDto>> CreateDoctor(DoctorCreateDto dto)
+        {
+            var createdoctor = _service.CreateDoctor(dto);
+            return CreatedAtAction(nameof(GetDoctorById), new { id = createdoctor.Id }, dto);
+        }
+
+
+        //(4) Update Doctors
+        [HttpPut("UpdateDoctor{id}")]
+        public async Task<ActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
+        {
+            var result = await _service.UpdateDoctor(id, dto);
+            if (!result) { return NoContent(); }
+            return Ok("Doctor updated");
+        }
+
+
+
+        //(5) Delete Doctors
+    }
+
+    
+
+}

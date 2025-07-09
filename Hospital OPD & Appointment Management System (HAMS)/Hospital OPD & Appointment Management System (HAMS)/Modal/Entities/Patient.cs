@@ -23,6 +23,6 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
 
-        public ICollection<Appointment> Appointments { get; set; }  
+        public ICollection<Appointment> Appointment { get; set; }  
     }
 }

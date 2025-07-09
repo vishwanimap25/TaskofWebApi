@@ -22,11 +22,15 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         public string AvailbilityDays { get; set; }
         public TimeSpan AvailableFrom { get; set; }
         public TimeSpan AvailableTo { get; set; }
+
+        //foregin key
+        public int DepartmentId { get; set; }
+        public Department Department { get; set; } //navigation property.
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
 
-        public ICollection<Appointment> Appointments { get; set; }
+        public ICollection<Appointment> Appointment { get; set; }
     }
 }
 
