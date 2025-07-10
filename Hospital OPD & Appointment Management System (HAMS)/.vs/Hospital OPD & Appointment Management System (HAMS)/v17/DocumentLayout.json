@@ -66,8 +66,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T11:27:25.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T11:27:25.393Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Helpers\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T10:53:28.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T10:53:28.015Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Entities\\Doctor.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA5wBwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T10:28:14.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T10:28:14.172Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:41:23.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T09:41:23.252Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Doctor dto folder\\DoctorReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:37:06.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T09:37:06.015Z"
             },
             {
               "$type": "Document",
@@ -129,7 +124,7 @@
               "RelativeDocumentMoniker": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Doctor dto folder\\DoctorCreateDto.cs",
               "ToolTip": "C:\\Users\\Nimap\\source\\Tasks\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Doctor dto folder\\DoctorCreateDto.cs",
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Modal\\Dto\\Doctor dto folder\\DoctorCreateDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywBMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T09:35:52.176Z",
               "EditorCaption": ""
@@ -144,8 +139,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Controllers\\DoctorController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:27:38.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T09:27:38.456Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Services\\DoctorService.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAcwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:27:33.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T09:27:33.094Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Hospital OPD \u0026 Appointment Management System (HAMS)\\Repositories\\DoctorRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAUwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:27:25.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T09:27:25.123Z"
             }
           ]
         },
