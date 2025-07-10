@@ -1,4 +1,9 @@
 using Hospital_OPD___Appointment_Management_System__HAMS_.Data;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Helpers;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Services;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +18,20 @@ builder.Services.AddDbContext<ApplicationDBcontext>(options => options.UseSqlSer
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//Automapping (early, global)
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+//DI for Repositories and Services
+//(1)For Doctor
+builder.Services.AddScoped<IDoctorServices, DoctorService>();
+builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+
+
+
 
 var app = builder.Build();
 

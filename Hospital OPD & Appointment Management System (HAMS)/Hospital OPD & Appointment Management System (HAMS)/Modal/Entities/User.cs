@@ -17,13 +17,9 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         [Required]
         public string PasswordHash { get; set; }
 
-        public int RoleId { get; set; }
+        public string Role { get; set; } //admin, user, doctor
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        public bool IsActive { get; set; } = true;
-
-        //navigation property
-        public Role Role { get; set; }
     }
 }

@@ -1,16 +1,18 @@
 ﻿using AutoMapper;
-using Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Repositories;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
 
-namespace Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Services
+namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
 {
     public class DoctorService : IDoctorServices
     {
-        private readonly DoctorRepository _repo;
+        private readonly IDoctorRepository _repo;
         private readonly IMapper _mapper;
                                                
-        public DoctorService(DoctorRepository repo, IMapper mapper)
+        public DoctorService(IDoctorRepository repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;

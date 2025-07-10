@@ -1,5 +1,5 @@
-﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Services;
-using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
+﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
@@ -40,14 +40,14 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
         [HttpPost("CreateDoctor")]
         public async Task<ActionResult<DoctorReadDto>> CreateDoctor(DoctorCreateDto dto)
         {
-            var createdoctor = _service.CreateDoctor(dto);
+            var createdoctor = await _service.CreateDoctor(dto);
             return CreatedAtAction(nameof(GetDoctorById), new { id = createdoctor.Id }, dto);
         }
 
 
         //(4) Update Doctors
         [HttpPut("UpdateDoctor{id}")]
-        public async Task<ActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
+        public async Task<IActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
         {
             var result = await _service.UpdateDoctor(id, dto);
             if (!result) { return NoContent(); }
@@ -57,6 +57,13 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
 
         //(5) Delete Doctors
+        [HttpDelete("{id}/DeleteDoctor")]
+        public async Task<IActionResult> DeleteDoctor (int id)
+        {
+            var doctor = await _service.DeleteDoctor(id);
+            if (!doctor) { return NotFound(); }
+            return Ok("Doctor deleted");
+        }
     }
 
     

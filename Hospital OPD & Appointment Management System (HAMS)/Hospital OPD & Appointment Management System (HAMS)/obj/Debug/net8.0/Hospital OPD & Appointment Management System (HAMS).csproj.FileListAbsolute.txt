@@ -147,3 +147,5 @@ C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\
 C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\net8.0\Hospital OPD & Appointment Management System (HAMS).pdb
 C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\net8.0\Hospital OPD & Appointment Management System (HAMS).genruntimeconfig.cache
 C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)\obj\Debug\net8.0\ref\Hospital OPD & Appointment Management System (HAMS).dll
+C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Nimap\source\Tasks\Hospital OPD & Appointment Management System (HAMS)\Hospital OPD & Appointment Management System (HAMS)\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,6 +1,6 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
 
-namespace Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Repositories
+namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces
 {
     public interface IDoctorRepository
     {

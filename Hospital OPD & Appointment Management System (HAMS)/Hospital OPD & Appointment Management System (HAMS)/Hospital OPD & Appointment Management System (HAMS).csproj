@@ -28,7 +28,6 @@
     <Folder Include="Modal\Dto\Appointment dto folder\" />
     <Folder Include="Modal\Dto\Auth Folder\" />
     <Folder Include="Modal\Dto\Responce Folder\" />
-    <Folder Include="Modal\Dto\Patient dto folder\" />
   </ItemGroup>
 
 </Project>

@@ -13,15 +13,16 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         [Required]
         public string Email { get; set; }
         [Required]
-        [MaxLength(10)]
-        public int PhoneNumber { get; set; }
+        
+        public string PhoneNumber { get; set; }
         public string Qualification { get; set; }
         [Required]
-        [MaxLength(10)]
+        
         public string Gender { get; set; }
         public string AvailbilityDays { get; set; }
-        public TimeSpan AvailableFrom { get; set; }
-        public TimeSpan AvailableTo { get; set; }
+        
+        public TimeSpan? AvailableFrom { get; set; } 
+        public TimeSpan? AvailableTo { get; set; }
 
         //foregin key
         public int DepartmentId { get; set; }

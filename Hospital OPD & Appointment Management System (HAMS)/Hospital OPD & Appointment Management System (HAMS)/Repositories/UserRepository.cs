@@ -1,8 +1,9 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Data;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
+using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Hospital_OPD___Appointment_Management_System__HAMS_.Interfaces.Repositories
+namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
 {
     public class UserRepository : IUserRepository
     {

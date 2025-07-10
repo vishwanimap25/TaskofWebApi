@@ -11,17 +11,22 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_d
         [Required]
         public string Email { get; set; }
         [Required]
-        [MaxLength(10)]
-        public int PhoneNumber { get; set; }
+        
+        public string PhoneNumber { get; set; }
         public string Qualification { get; set; }
         [Required]
-        [MaxLength(10)]
+
         public string Gender { get; set; }
         public string AvailbilityDays { get; set; }
-        public TimeSpan AvailableFrom { get; set; }
+
+
+        [Required]
+        public TimeSpan AvailableFrom { get; set; }  
+        [Required]
         public TimeSpan AvailableTo { get; set; }
         public bool IsActive { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public int DepartmentId { get; set; }
 
     }
 }

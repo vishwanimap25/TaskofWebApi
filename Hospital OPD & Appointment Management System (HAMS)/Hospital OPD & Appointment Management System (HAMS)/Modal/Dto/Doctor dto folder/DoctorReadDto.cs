@@ -2,11 +2,12 @@
 {
     public class DoctorReadDto
     {
+        public int Id { get; set; }
         public string FullName { get; set; }
         public string Specialization { get; set; }
-        public int PhoneNumber { get; set; }
+        public string  PhoneNumber { get; set; }
         public string AvailbilityDays { get; set; }
-        public TimeSpan AvailableFrom { get; set; }
+        public TimeSpan AvailableFrom { get; set; } 
         public TimeSpan AvailableTo { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
