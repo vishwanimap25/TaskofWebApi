@@ -23,12 +23,17 @@ builder.Services.AddSwaggerGen();
 //Automapping (early, global)
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+//builder.Services.AddAutoMapper(typeof(MappingProfile));
+//builder.Services.AddAutoMapper(typeof(Program));
+
 
 //DI for Repositories and Services
 //(1)For Doctor
 builder.Services.AddScoped<IDoctorServices, DoctorService>();
 builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+//(2)For Patient
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+builder.Services.AddScoped<IPatientServices, PatientService>();
 
 
 

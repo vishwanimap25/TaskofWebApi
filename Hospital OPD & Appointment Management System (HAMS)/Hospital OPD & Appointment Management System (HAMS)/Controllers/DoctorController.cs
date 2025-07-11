@@ -25,7 +25,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
         }
 
         //(2) Get Doctors by Id
-        [HttpGet("GetDoctorById{id}")]
+        [HttpGet("GetDoctorById/{id}")]
         public async Task<ActionResult<DoctorReadDto>> GetDoctorById(int id)
         {
             var doctor = await _service.GetDoctorById(id);
@@ -38,15 +38,16 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(3) Create new Doctor
         [HttpPost("CreateDoctor")]
-        public async Task<ActionResult<DoctorReadDto>> CreateDoctor(DoctorCreateDto dto)
+        public async Task<ActionResult<DoctorReadDto>> CreateDoctor([FromBody] DoctorCreateDto dto)
         {
             var createdoctor = await _service.CreateDoctor(dto);
-            return CreatedAtAction(nameof(GetDoctorById), new { id = createdoctor.Id }, dto);
+            if(createdoctor == null) { return BadRequest("Enter Doctor Details"); }
+            return Ok(createdoctor);
         }
 
 
         //(4) Update Doctors
-        [HttpPut("UpdateDoctor{id}")]
+        [HttpPut("UpdateDoctor/{id}")]
         public async Task<IActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
         {
             var result = await _service.UpdateDoctor(id, dto);
@@ -57,7 +58,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
 
         //(5) Delete Doctors
-        [HttpDelete("{id}/DeleteDoctor")]
+        [HttpDelete("DeleteDoctor/{id}")]
         public async Task<IActionResult> DeleteDoctor (int id)
         {
             var doctor = await _service.DeleteDoctor(id);

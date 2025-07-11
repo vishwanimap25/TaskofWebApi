@@ -2,6 +2,7 @@
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
 {
@@ -43,5 +44,21 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
         {
             context.Patient.Update(patient);
         }
+
+        public async Task<Patient> GetNameEmailAsync(string? name, string? email)
+        {
+            var query = context.Patient.AsQueryable();
+            //return await context.Patient
+            //    .FirstOrDefaultAsync(u => EF.Functions.Like(u.FullName, $"%{name}%") 
+            //    || EF.Functions.Like(u.Email, $"%{email}%"));
+            if (!string.IsNullOrEmpty(name))
+                query = query.Where(p => EF.Functions.Like(p.FullName, $"%{name}%"));
+            if (!string.IsNullOrEmpty(email))
+                query = query.Where(p => EF.Functions.Like(p.Email, $"%{email}%"));
+
+            return await query.FirstOrDefaultAsync();
+        }
+
+       
     }
 }

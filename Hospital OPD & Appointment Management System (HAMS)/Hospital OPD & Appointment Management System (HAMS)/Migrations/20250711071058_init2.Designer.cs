@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
 {
     [DbContext(typeof(ApplicationDBcontext))]
-    [Migration("20250710102900_init1")]
-    partial class init1
+    [Migration("20250711071058_init2")]
+    partial class init2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,10 +92,10 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<TimeSpan>("AvailableFrom")
+                    b.Property<TimeSpan?>("AvailableFrom")
                         .HasColumnType("time");
 
-                    b.Property<TimeSpan>("AvailableTo")
+                    b.Property<TimeSpan?>("AvailableTo")
                         .HasColumnType("time");
 
                     b.Property<string>("AvailbilityDays")
@@ -157,8 +157,8 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("DateOfBirth")
+                        .HasColumnType("date");
 
                     b.Property<string>("FullName")
                         .IsRequired()

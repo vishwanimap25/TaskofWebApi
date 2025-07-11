@@ -10,5 +10,6 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories.Inter
         void Update(Patient patient);
         void Delete(Patient patient);
         Task<bool> SaveChangesAsync();
+        Task<Patient> GetNameEmailAsync(string name, string email);
     }
 }

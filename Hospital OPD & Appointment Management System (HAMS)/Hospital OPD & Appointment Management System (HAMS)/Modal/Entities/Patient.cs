@@ -11,12 +11,13 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         [Required]
         public string Gender { get; set; }
         [Required]
-        public DateTime DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
         [MaxLength(10)]
         [Required]
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
         public string Address { get; set; }
 
+        public string Email { get; set; } = string.Empty;
 
         //internal use only
         public bool IsDeleted { get; set; }

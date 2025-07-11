@@ -25,6 +25,7 @@
   <ItemGroup>
     <Folder Include="Mapping\" />
     <Folder Include="Middleware\" />
+    <Folder Include="Migrations\" />
     <Folder Include="Modal\Dto\Appointment dto folder\" />
     <Folder Include="Modal\Dto\Auth Folder\" />
     <Folder Include="Modal\Dto\Responce Folder\" />
