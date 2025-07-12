@@ -10,6 +10,8 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
         [StringLength(10)]
         [Required]
         public string Gender { get; set; }
+
+        public string Reason { get; set; }
         [Required]
         public DateOnly DateOfBirth { get; set; }
         [MaxLength(10)]

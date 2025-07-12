@@ -11,6 +11,6 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interface
         Task<Patient> CreatePatientAsync(PatientCreateDto dto);
         Task<bool> UpdatePatientAsync(int id, PatientCreateDto dto);
         Task<bool> DeletePatientAsync(int id);
-        Task<Patient> GetPatientByNnEAsync(string name, string email);
+        Task<Patient> GetPatientByNnEAsync(string name, string email, string phone);
     }
 }

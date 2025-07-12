@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
 {
     [DbContext(typeof(ApplicationDBcontext))]
-    [Migration("20250711071058_init2")]
-    partial class init2
+    [Migration("20250712051447_newinit")]
+    partial class newinit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,9 +36,8 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                     b.Property<DateTime>("AppointmentDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("CreatedAt")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("DoctorId")
                         .HasColumnType("int");
@@ -51,10 +50,6 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TimeSlot")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -160,6 +155,10 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                     b.Property<DateOnly>("DateOfBirth")
                         .HasColumnType("date");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -172,9 +171,14 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PhoneNumber")
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasMaxLength(10)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

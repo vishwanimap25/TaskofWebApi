@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             }
           }
@@ -117,21 +117,61 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Department"
+                "$ref": "#/components/schemas/DepartmentCreateDto"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/apiDepartment/DeleteDepartmentById/{id}": {
+      "delete": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -458,6 +498,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "phone",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -571,10 +618,6 @@
             "type": "string",
             "format": "date-time"
           },
-          "timeSlot": {
-            "type": "string",
-            "nullable": true
-          },
           "reason": {
             "type": "string",
             "nullable": true
@@ -585,7 +628,7 @@
           },
           "createdAt": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
           "patient": {
             "$ref": "#/components/schemas/Patient"
@@ -612,6 +655,16 @@
             "items": {
               "$ref": "#/components/schemas/Doctor"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DepartmentCreateDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -804,6 +857,10 @@
             "minLength": 0,
             "type": "string"
           },
+          "reason": {
+            "type": "string",
+            "nullable": true
+          },
           "dateOfBirth": {
             "type": "string",
             "format": "date"
@@ -846,6 +903,10 @@
             "nullable": true
           },
           "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "reason": {
             "type": "string",
             "nullable": true
           },

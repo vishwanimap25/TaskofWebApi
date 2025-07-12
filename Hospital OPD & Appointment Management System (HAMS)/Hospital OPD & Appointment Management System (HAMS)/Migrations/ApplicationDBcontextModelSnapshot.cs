@@ -33,9 +33,8 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                     b.Property<DateTime>("AppointmentDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("CreatedAt")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("DoctorId")
                         .HasColumnType("int");
@@ -48,10 +47,6 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TimeSlot")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -177,6 +172,10 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Migrations
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

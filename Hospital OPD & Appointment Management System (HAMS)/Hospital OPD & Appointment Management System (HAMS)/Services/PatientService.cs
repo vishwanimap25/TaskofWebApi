@@ -53,9 +53,9 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
 
         }
 
-        public async Task<Patient> GetPatientByNnEAsync(string? name, string? email)
+        public async Task<Patient> GetPatientByNnEAsync(string? name, string? email, string? phone)
         {
-            var patient = await _repo.GetNameEmailAsync(name, email);
+            var patient = await _repo.GetNameEmailAsync(name, email, phone);
             return patient;
         }
 

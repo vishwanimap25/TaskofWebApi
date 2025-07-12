@@ -5,17 +5,17 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities
     public class Appointment
     {
         public int Id { get; set; }
-        public int PatientId { get; set; } //foregin key
-        public int DoctorId { get; set; } //foregin key
-        public DateTime AppointmentDate { get; set; }
-        public string TimeSlot { get; set; }
+
+        public int PatientId { get; set; } // Foreign key
+        public string PatientName { get; set; }
+        public int DoctorId { get; set; }  // Foreign key
+        public string DoctorName { get; set; }
+        public DateTime AppointmentDate { get; set; } = DateTime.UtcNow;
         public string Reason { get; set; }
         public string Status { get; set; }
-        public string CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-
-
-        //navigation property
+        // Navigation properties
         public Patient Patient { get; set; }
         public Doctor Doctor { get; set; }
 

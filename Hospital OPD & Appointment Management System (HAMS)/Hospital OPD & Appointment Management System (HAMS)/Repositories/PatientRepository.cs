@@ -45,7 +45,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
             context.Patient.Update(patient);
         }
 
-        public async Task<Patient> GetNameEmailAsync(string? name, string? email)
+        public async Task<Patient> GetNameEmailAsync(string? name, string? email, string? phone)
         {
             var query = context.Patient.AsQueryable();
             //return await context.Patient
@@ -55,6 +55,8 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
                 query = query.Where(p => EF.Functions.Like(p.FullName, $"%{name}%"));
             if (!string.IsNullOrEmpty(email))
                 query = query.Where(p => EF.Functions.Like(p.Email, $"%{email}%"));
+            if (!string.IsNullOrEmpty(phone))
+                query = query.Where(p => EF.Functions.Like(p.PhoneNumber, $"%{phone}%"));
 
             return await query.FirstOrDefaultAsync();
         }

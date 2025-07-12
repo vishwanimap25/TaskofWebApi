@@ -45,13 +45,13 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4)Get Patient By Name || email
         [HttpGet("GetPatientByNameEmail")]
-        public async Task<ActionResult<Patient>> GetPatientByNameEmail([FromQuery]string? name, [FromQuery]string? email)
+        public async Task<ActionResult<Patient>> GetPatientByNameEmail([FromQuery]string? name, [FromQuery]string? email, [FromQuery]string? phone)
         {
             //do not use [FromBody] with multiple paramerters
             //instead use [FromQuery]
 
-            var patient = await _service.GetPatientByNnEAsync(name, email);
-            if(patient == null) { return BadRequest("Enter Valid Name or Email"); }
+            var patient = await _service.GetPatientByNnEAsync(name, email, phone);
+            if(patient == null) { return BadRequest("Enter Valid Name/ Email/ Phone Number"); }
             return Ok(patient);
         }
 

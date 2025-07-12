@@ -203,6 +203,11 @@
         "Name": "email",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -247,8 +252,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "department",
-        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities.Department",
+        "Name": "dto",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Department_Dto.DepartmentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.DepartmentController",
+    "Method": "DeleteDepartmentById",
+    "RelativePath": "apiDepartment/DeleteDepartmentById/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -304,11 +325,21 @@
         "IsRequired": true
       },
       {
-        "Name": "department",
-        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities.Department",
+        "Name": "dto",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Department_Dto.DepartmentCreateDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Entities.Department",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
