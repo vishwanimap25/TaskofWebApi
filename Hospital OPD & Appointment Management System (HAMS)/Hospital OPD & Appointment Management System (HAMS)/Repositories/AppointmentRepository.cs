@@ -30,12 +30,12 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Repositories
             return await context.Appointments.ToListAsync();
         }
 
-        public async Task<Appointment> GetIdByAsync(int id)
+        public async Task<Appointment?> GetIdByAsync(int id)
         {
             return await context.Appointments
-                .Include(d => d.DoctorId)
-                .Include(p => p.PatientId)
-                .FirstOrDefaultAsync(x => x.Id == id);
+                .Include(a => a.Patient)
+                .Include(a => a.Doctor)
+                .FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task<bool> SaveChangesAsync()

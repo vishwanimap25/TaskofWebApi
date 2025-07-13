@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6177ef8a0245a30658a5046aaef9624b13695550")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d2ee376d6cca71e3670f29a5f4005dcdeca6697")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hospital OPD & Appointment Management System (HAMS)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

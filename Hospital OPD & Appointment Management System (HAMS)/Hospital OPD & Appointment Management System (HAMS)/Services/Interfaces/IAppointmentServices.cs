@@ -5,9 +5,9 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interface
     public interface IAppointmentServices
     {
         Task<IEnumerable<AppointmentReadDto>> GetAllAppointmentsAync();
-        Task<AppointmentReadDto> GetAppointmentByIdAsync();
+        Task<AppointmentReadDto> GetAppointmentByIdAsync(int id);
         Task<AppointmentReadDto> CreateAppointmentsAync(AppointmentCreateDto dto);
-        Task UpdateAppointmentAsync(int id, AppointmentCreateDto dto);
+        Task<AppointmentReadDto> UpdateAppointmentAsync(int id, AppointmentCreateDto dto);
         Task<bool> DeleteAppointmentAsync(int id);
     }
 }

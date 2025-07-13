@@ -39,7 +39,7 @@ builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 builder.Services.AddScoped<IDepartmentServices, DepartmentServices>();
 //(4)For Appointment
 builder.Services.AddScoped<IAppointmentRepository,  AppointmentRepository>();
-//builder.Services.AddScoped<IAppointmentServices, AppointmentServices>();
+builder.Services.AddScoped<IAppointmentServices, AppointmentServices>();
 
 
 var app = builder.Build();

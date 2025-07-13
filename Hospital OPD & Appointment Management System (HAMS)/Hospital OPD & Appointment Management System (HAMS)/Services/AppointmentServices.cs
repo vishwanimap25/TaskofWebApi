@@ -8,16 +8,20 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
     public class AppointmentServices : IAppointmentServices
     {
         private readonly IAppointmentRepository _repo;
+        private readonly IPatientRepository _patientrepo;
+        private readonly IDoctorRepository _doctorepo;
 
-        public AppointmentServices(IAppointmentRepository repo)
+        public AppointmentServices(IAppointmentRepository repo, IPatientRepository patientrepo, IDoctorRepository doctorepo)
         {
             _repo = repo;
+            _patientrepo = patientrepo;
+            _doctorepo = doctorepo;
         }
 
         public async Task<AppointmentReadDto> CreateAppointmentsAync(AppointmentCreateDto dto)
         {
-            var patient = await _repo.GetIdByAsync(dto.PatientId);
-            var doctor = await _repo.GetIdByAsync(dto.DoctorId);
+            var patient = await _patientrepo.GetIdByAsync(dto.PatientId);
+            var doctor = await _doctorepo.GetIdByAsync(dto.DoctorId);
 
             if (patient == null || doctor == null)
             {
@@ -41,9 +45,9 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
             {
                 Id = appointment.Id,
                 PatientId = appointment.PatientId,
-                PatientName = patient.PatientName,      
+                PatientName = patient.FullName,      
                 DoctorId = appointment.DoctorId,
-                DoctorName = doctor.DoctorName,         
+                DoctorName = doctor.FullName,       
                 AppointmentDate = appointment.AppointmentDate,
                 Reason = appointment.Reason,
                 Status = appointment.Status,
@@ -64,19 +68,89 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
             return true;
         }
 
-        public Task<IEnumerable<AppointmentReadDto>> GetAllAppointmentsAync()
+        public async Task<IEnumerable<AppointmentReadDto>> GetAllAppointmentsAync()
         {
+            var apot = await _repo.GetAllAsync();
             
+            var result = new List<AppointmentReadDto>();
+
+            foreach(var appointment in apot)
+            {
+                var patient = await _patientrepo.GetIdByAsync(appointment.PatientId);
+                var doctor = await _doctorepo.GetIdByAsync(appointment.DoctorId);
+
+
+                result.Add(new AppointmentReadDto
+                {
+                    Id = appointment.Id,
+                    PatientId = appointment.PatientId,
+                    PatientName = patient?.FullName,  
+                    DoctorId = appointment.DoctorId,
+                    DoctorName = doctor?.FullName,
+                    AppointmentDate = appointment.AppointmentDate,
+                    Reason = appointment.Reason,
+                    Status = appointment.Status,
+                    CreatedAt = appointment.CreatedAt
+                });
+            }
+
+            return result;
         }
 
-        public Task<AppointmentReadDto> GetAppointmentByIdAsync()
+        public async Task<AppointmentReadDto> GetAppointmentByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var apot = await _repo.GetIdByAsync(id);
+            if(apot == null) { return null; }
+
+            return new AppointmentReadDto
+            {
+                Id = apot.Id,
+                PatientId = apot.PatientId,
+                PatientName = apot.PatientName,
+                DoctorId = apot.DoctorId,
+                AppointmentDate = apot.AppointmentDate,
+                Reason = apot.Reason,
+                Status = apot.Status,
+                CreatedAt = apot.CreatedAt,
+            };
         }
 
-        public Task UpdateAppointmentAsync(int id, AppointmentCreateDto dto)
+        public async Task<AppointmentReadDto> UpdateAppointmentAsync(int id, AppointmentCreateDto dto)
         {
-            throw new NotImplementedException();
+            var appointment = await _repo.GetIdByAsync(id);
+            if(appointment == null) { return null; }
+
+            var patient = await _patientrepo.GetIdByAsync(dto.PatientId);
+            var doctor = await _doctorepo.GetIdByAsync(dto.DoctorId);
+            if(patient == null || doctor == null)
+            {
+                return null;
+            }
+
+            // Update existing fields
+            appointment.PatientId = dto.PatientId;
+            appointment.DoctorId = dto.DoctorId;
+            appointment.AppointmentDate = dto.AppointmentDate;
+            appointment.Reason = dto.Reason;
+            appointment.Status = dto.Status;
+            appointment.CreatedAt = DateTime.UtcNow;
+
+            _repo.Update(appointment);
+            await _repo.SaveChangesAsync();
+
+
+            return new AppointmentReadDto
+            {
+                Id = appointment.Id,
+                PatientId = patient.Id,
+                PatientName = appointment.PatientName,
+                DoctorId = appointment.DoctorId,
+                DoctorName = appointment.DoctorName,
+                AppointmentDate = appointment.AppointmentDate,
+                Reason = appointment.Reason,
+                Status = appointment.Status,
+                CreatedAt = DateTime.UtcNow,
+            };
         }
     }
 }
