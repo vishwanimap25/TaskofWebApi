@@ -109,6 +109,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.UserDtos.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.UserDtos.UserRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Hospital_OPD___Appointment_Management_System__HAMS_.Controllers.DoctorController",
     "Method": "CreateDoctor",
     "RelativePath": "api/Doctor/CreateDoctor",

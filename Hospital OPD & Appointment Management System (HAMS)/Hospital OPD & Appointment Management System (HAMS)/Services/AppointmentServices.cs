@@ -100,14 +100,18 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
         public async Task<AppointmentReadDto> GetAppointmentByIdAsync(int id)
         {
             var apot = await _repo.GetIdByAsync(id);
-            if(apot == null) { return null; }
+            if (apot == null) { return null; }
+            var patient = await _patientrepo.GetIdByAsync(apot.PatientId);
+            var doctor = await _doctorepo.GetIdByAsync(apot.DoctorId);
+
 
             return new AppointmentReadDto
             {
                 Id = apot.Id,
                 PatientId = apot.PatientId,
-                PatientName = apot.PatientName,
+                PatientName = patient?.FullName, // null-safe
                 DoctorId = apot.DoctorId,
+                DoctorName = doctor?.FullName,   // null-safe
                 AppointmentDate = apot.AppointmentDate,
                 Reason = apot.Reason,
                 Status = apot.Status,
@@ -142,10 +146,10 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Services
             return new AppointmentReadDto
             {
                 Id = appointment.Id,
-                PatientId = patient.Id,
-                PatientName = appointment.PatientName,
+                PatientId = appointment.Id,
+                PatientName = patient.FullName,
                 DoctorId = appointment.DoctorId,
-                DoctorName = appointment.DoctorName,
+                DoctorName = doctor.FullName,
                 AppointmentDate = appointment.AppointmentDate,
                 Reason = appointment.Reason,
                 Status = appointment.Status,

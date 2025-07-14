@@ -1,5 +1,6 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
@@ -48,6 +49,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4) Update Doctors
         [HttpPut("UpdateDoctor/{id}")]
+        [Authorize(Roles = "Admin,Doctor")]
         public async Task<IActionResult> UpdateDoctor(int id, DoctorCreateDto dto)
         {
             var result = await _service.UpdateDoctor(id, dto);

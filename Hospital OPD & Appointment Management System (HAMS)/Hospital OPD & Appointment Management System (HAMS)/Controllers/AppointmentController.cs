@@ -1,12 +1,14 @@
 ﻿using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Appointment_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Modal.Dto.Doctor_dto_folder;
 using Hospital_OPD___Appointment_Management_System__HAMS_.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AppointmentController : Controller
     {
         private readonly IAppointmentServices _service;
@@ -18,6 +20,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(1)Create new Appointments
         [HttpPost("CreateAppointment")]
+        [Authorize(Roles = "Receptionist,Admin")]
         public async Task<ActionResult<DoctorReadDto>> CreateAppointment([FromBody]AppointmentCreateDto dto)
         {
             var createapot = await _service.CreateAppointmentsAync(dto);
@@ -27,6 +30,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(2)Get all Appointments
         [HttpGet("GetAllAppointments")]
+        [Authorize(Roles = "Receptionist,Admin")]
         public async Task<ActionResult<IEnumerable<AppointmentReadDto>>> GetAllAppointments()
         {
             var getapots = await _service.GetAllAppointmentsAync();
@@ -36,6 +40,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(3)Get Appointments by Id
         [HttpGet("GetAppointmentById/{id}")]
+        [Authorize(Roles = "Receptionist,Admin")]
         public async Task<ActionResult<AppointmentReadDto>> GetAppointmentById(int id)
         {
             var getapot = await _service.GetAppointmentByIdAsync(id);
@@ -45,6 +50,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(4)Update Appointments
         [HttpPut("UpdateAppointment/{id}")]
+        [Authorize(Roles = "Receptionist,Admin")]
         public async Task<IActionResult> UpdateAppointment(int id, AppointmentCreateDto dto)
         {
             var apot = await _service.UpdateAppointmentAsync(id, dto);
@@ -54,6 +60,7 @@ namespace Hospital_OPD___Appointment_Management_System__HAMS_.Controllers
 
         //(5)Delete Appointments
         [HttpDelete("DeleteAppointment/{id}")]
+        [Authorize(Roles = "Receptionist,Admin")]
         public async Task<IActionResult> DeleteAppointment(int id)
         {
             var apot = await _service.DeleteAppointmentAsync(id);
